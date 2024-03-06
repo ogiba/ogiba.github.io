@@ -12,19 +12,31 @@
         }
 
         .top-section {
-            background: #333;
-            color: white;
+            background: #f4f4f4;
+            padding: 20px;
             text-align: center;
-            padding: 20px 0;
         }
 
         .top-section img {
-            max-width: 100px;
+            max-width: 100px; /* Adjust as needed */
             height: auto;
         }
 
+        nav {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
         header {
-            background: #f4f4f4;
             padding: 20px 0;
             text-align: center;
         }
@@ -59,21 +71,26 @@
 </head>
 <body>
     <div class="top-section">
-        <img src="browsabler.png" alt="Browsabler Logo">
+        <img src="browsabler.png" alt="Browsabler Logo"> <!-- Replace 'logo.png' with your actual logo file -->
         <h1>Browsabler</h1>
     </div>
 
+    <nav>
+        <a href="privacy-policy">Privacy Policy</a>
+        <a href="terms-conditions">Terms & Conditions</a>
+    </nav>
+
     <header>
-        <h2>Welcome to Browsabler</h2>
+        <h1>Welcome to Browsabler</h1>
     </header>
 
     <section id="about">
-        <h3>About Browsabler</h3>
+        <h2>About Browsabler</h2>
         <p>Simple app responsible for cutting URLs from the shared text and given files.</p>
     </section>
 
     <section id="contact">
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <p>Email us at: <a href="mailto:ogiback@gmail.com">ogiback@gmail.com</a></p>
     </section>
 
